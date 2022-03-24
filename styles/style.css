@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --darktheme: #000;
+    --lightheme: #cad3f2;
+    --dark: #333;
+    --light: #fff;
+    --gradOrange: #D5A64A;
+    --gradPink: #E132F2;
+    --gradAqua: #0ACCCC;
+    --gradBlue: #1919D3;
+}
+
+
+body{
+    height: 1500px;
+    color: rgb(35, 38, 46);
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    /* background-color: #eff2f8; */
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    color: rgb(25, 29, 41);
+}
+
+.card{
+    border: none !important;
+}
+main{
+    background-color: rgb(249 249 249);
+    height: 1000px;
+}
+
+.pannel-header h6{
+    font-weight: 600;
+    color: rgb(33, 57, 78);
+    text-align: center;
+}
+
+
+
+.form-control:focus{
+    outline: none !important;
+    box-shadow: none;
+    border: 1px solid #ccc;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.55);
+    padding-bottom: 0;
+}
+nav{
+    /* background-color: #e6e6e6; */
+}
+
+nav form input::placeholder{
+    font-size: 15px;
+    color: rgb(20, 40, 56);
+}
+nav .dropdown-menu{
+    margin-top: 15px;
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
+    border: none;
+}
+
+nav .avatar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.circle{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+}
+nav .notification span{
+    background-color: #cad3f2;
+}
+
+
+.banner{
+    background-color: #000000;
+    color: white;
+    padding: 3rem 0;
+}
+.banner h1{
+    color: rgb(254 254 254);
+    font-weight: 600;
+}
+
+.offers{
+    background-color: white;
+}
+
+.offers .icon{
+    background-color: antiquewhite;
+    width: 50px;
+    height: 50px;
+    color: #333;
+    line-height: 50px;
+}
+.offers .offer-content{
+    margin-left: 20px;
+}
+h5{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+.recommended .card{
+    border-radius: 10px;
+    overflow: hidden;
+    line-height: 2.5;
+}
+
+.recommended h4{
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+.recommended .course-author img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.recommended .course-author .profile span{
+    font-size: 14px;
+}
+
+.recommended .card-footer{
+    background: transparent;
+}
+
+.recommended .ratting-course .fas{
+    color: orange !important;
+}
+.recommended .time-course span:first-child{
+    margin-right: 10px;
+}
+
+
+.recommended .course h5{
+    color: #4d4d4d;
+    font-size: 17px;
+}
+.recommended .pricing span:first-child{
+    color: #4d4d4d;
+}
